@@ -5,8 +5,9 @@
   "dependencies": {
     "axios": "^0.18.0",
     "create-react-class": "^15.6.3",
+    "native-base-web": "github:codejamninja/native-base-web#npm",
     "node-sass": "^4.12.0",
-    "nuka-carousel": "^2.0.4",
+    "nuka-carousel": "^3.0.0",
     "rc-progress": "^2.3.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
