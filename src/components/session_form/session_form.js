@@ -32,6 +32,7 @@ class SessionForm extends Component {
   handleSubmit(e) {
     e.preventDefault();
     const user = Object.assign({}, this.state);
+    user.image_url = "https://s3.amazonaws.com/minkstarter1/quickstarter_avatar.png"
     if (e.currentTarget.value === "Demo login") {
       this.props.processForm(
         { email: "guest@guest.com", password: "password" }
