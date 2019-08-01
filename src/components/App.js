@@ -12,15 +12,7 @@ import SessionForm from './session_form/session_form'
 import '../css/app.scss'
 
 class App extends Component {
-
-  //   componentWillUnmount() {
-  //     this.props.clearErrors();
-  //   }
-  //
-  // componentDidMount() {
-  //   this.props.clearErrors();
-  // }
-
+  
   render() {
     return (
       <div className="App">

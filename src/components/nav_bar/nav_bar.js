@@ -38,7 +38,7 @@ class NavBar extends Component {
   }
 
   profileIcon() {
-    if (this.props.currentUser && this.props.currentUser.image_url) {
+    if (this.props.currentUser) {
       return (
         <li onClick={this.toggleDropdown} className="dropbtn">
           <img src={this.props.currentUser.image_url} alt="User avatar"></img>
